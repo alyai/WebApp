@@ -18,7 +18,4 @@ steps:
     ResourceGroupName: 'iqdevopschallenge'
     SlotName: 'production'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
-  inputs:
-    command: build
-    projects: '**/*.csproj'
-    arguments: '--configuration Release' # Update this to match your need
+  
