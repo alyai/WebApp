@@ -6,6 +6,10 @@
     <Version>1.2.3.4</Version>
   </PropertyGroup>
 
+<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+</PropertyGroup>
+
   <ItemGroup>
   </ItemGroup>
 
