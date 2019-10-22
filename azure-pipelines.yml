@@ -5,15 +5,6 @@
 
 trigger:
 - master
-- task: DownloadGitHubRelease@0
-  inputs:
-    connection: 'iqdevopschallenge - GitHub'
-    userRepository: 'alyai/WebApp'
-    defaultVersionType: 'latest'
-    downloadPath: '$(System.ArtifactsDirectory)'
-pool:
-  vmImage: 'VS2017-Win2016'
-
 steps:
 - task: DotNetCoreCLI@2
   displayName: Build
