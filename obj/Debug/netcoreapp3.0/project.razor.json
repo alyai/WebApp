@@ -14344,11 +14344,6 @@
   "RootNamespace": "WebApp",
   "Documents": [
     {
-      "FilePath": "Pages/Privacy.cshtml",
-      "TargetPath": "Pages/Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "Pages/Error.cshtml",
       "TargetPath": "Pages/Error.cshtml",
       "FileKind": "mvc"
@@ -14361,6 +14356,11 @@
     {
       "FilePath": "Pages/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages/Shared/_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Pages/Ping.cshtml",
+      "TargetPath": "Pages/Ping.cshtml",
       "FileKind": "mvc"
     },
     {

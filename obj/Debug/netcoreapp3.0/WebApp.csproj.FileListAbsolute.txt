@@ -22,7 +22,6 @@
 /Users/omega/WebApp/obj/Debug/netcoreapp3.0/WebApp.RazorCoreGenerate.cache
 /Users/omega/WebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Error.cshtml.g.cs
 /Users/omega/WebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Index.cshtml.g.cs
-/Users/omega/WebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Privacy.cshtml.g.cs
 /Users/omega/WebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Shared/_Layout.cshtml.g.cs
 /Users/omega/WebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs
 /Users/omega/WebApp/obj/Debug/netcoreapp3.0/Razor/Pages/_ViewImports.cshtml.g.cs
@@ -33,3 +32,4 @@
 /Users/omega/WebApp/obj/Debug/netcoreapp3.0/WebApp.dll
 /Users/omega/WebApp/obj/Debug/netcoreapp3.0/WebApp.pdb
 /Users/omega/WebApp/obj/Debug/netcoreapp3.0/WebApp.csproj.CopyComplete
+/Users/omega/WebApp/obj/Debug/netcoreapp3.0/Razor/Pages/ping.cshtml.g.cs

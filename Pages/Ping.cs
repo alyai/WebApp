@@ -8,11 +8,11 @@ using Microsoft.Extensions.Logging;
 
 namespace WebApp.Pages
 {
-    public class PrivacyModel : PageModel
+    public class IndexModel2 : PageModel
     {
-        private readonly ILogger<PrivacyModel> _logger;
+        private readonly ILogger<IndexModel2> _logger;
 
-        public PrivacyModel(ILogger<PrivacyModel> logger)
+        public IndexModel2(ILogger<IndexModel2> logger)
         {
             _logger = logger;
         }
