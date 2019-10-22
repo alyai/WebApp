@@ -13,6 +13,9 @@
         "packagesPath": "/Users/omega/.nuget/packages/",
         "outputPath": "/Users/omega/WebApp/obj/",
         "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/omega/.nuget/NuGet/NuGet.Config"
+        ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
