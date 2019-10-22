@@ -5,13 +5,28 @@
 
 trigger:
 - master
-
+- task: DownloadGitHubRelease@0
+  inputs:
+    connection: 'iqdevopschallenge - GitHub'
+    userRepository: 'alyai/WebApp'
+    defaultVersionType: 'latest'
+    downloadPath: '$(System.ArtifactsDirectory)'
 pool:
   vmImage: 'VS2017-Win2016'
 
 steps:
 - task: DotNetCoreCLI@2
   displayName: Build
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Free Trial(56827d1e-eac9-4f1a-b972-737412389e9e)'
+    appType: 'webApp'
+    WebAppName: 'iqdevopschallenge'
+    deployToSlotOrASE: true
+    ResourceGroupName: 'iqdevopschallenge'
+    SlotName: 'production'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
   inputs:
     command: build
     projects: '**/*.csproj'
