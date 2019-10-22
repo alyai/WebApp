@@ -20,7 +20,6 @@
 /Users/omega/WebApp/obj/Debug/netcoreapp3.0/WebApp.TagHelpers.input.cache
 /Users/omega/WebApp/obj/Debug/netcoreapp3.0/WebApp.TagHelpers.output.cache
 /Users/omega/WebApp/obj/Debug/netcoreapp3.0/WebApp.RazorCoreGenerate.cache
-/Users/omega/WebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Error.cshtml.g.cs
 /Users/omega/WebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Index.cshtml.g.cs
 /Users/omega/WebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Shared/_Layout.cshtml.g.cs
 /Users/omega/WebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs

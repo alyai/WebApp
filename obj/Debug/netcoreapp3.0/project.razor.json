@@ -14344,11 +14344,6 @@
   "RootNamespace": "WebApp",
   "Documents": [
     {
-      "FilePath": "Pages/Error.cshtml",
-      "TargetPath": "Pages/Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "Pages/Index.cshtml",
       "TargetPath": "Pages/Index.cshtml",
       "FileKind": "mvc"
