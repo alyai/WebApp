@@ -11,7 +11,7 @@
     "/Users/omega/.nuget/packages/": {}
   },
   "project": {
-    "version": "3.0.100",
+    "version": "1.2.3.4",
     "restore": {
       "projectUniqueName": "/Users/omega/WebApp/WebApp.csproj",
       "projectName": "WebApp",

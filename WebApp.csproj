@@ -2,8 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <AspNetCoreHostingModel>WebApp</AspNetCoreHostingModel>
-    <Version>3.0.100</Version>
+    <Version>1.2.3.4</Version>
   </PropertyGroup>
 
   <ItemGroup>
