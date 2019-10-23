@@ -12,7 +12,7 @@
     ],
     "languageVersion": "",
     "platform": "",
-    "allowUnsafe": true,
+    "allowUnsafe": false,
     "warningsAsErrors": false,
     "optimize": false,
     "keyFile": "",
@@ -22,7 +22,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v3.0": {
-      "WebApp/1.2.3.4": {
+      "WebApp/3.0.100": {
         "dependencies": {
           "Microsoft.AspNetCore.Antiforgery": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.0.0.0",
@@ -2009,7 +2009,7 @@
     }
   },
   "libraries": {
-    "WebApp/1.2.3.4": {
+    "WebApp/3.0.100": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

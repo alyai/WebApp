@@ -3,12 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <AspNetCoreHostingModel>WebApp</AspNetCoreHostingModel>
-    <Version>1.2.3.4</Version>
+    <Version>3.0.100</Version>
   </PropertyGroup>
-
-<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-</PropertyGroup>
 
   <ItemGroup>
   </ItemGroup>
