@@ -7,7 +7,7 @@
  
 
 # Login to Azure account. Will prompt for password.
-read -sp "Azure password: " AZ_PASS && echo && az login -u gmgold@gmail.com -p $AZ_PASS
+#read -sp "Azure password: " AZ_PASS && echo && az login -u gmgold@gmail.com -p $AZ_PASS
 
 az extension add --name "azure-devops"
 sleep 5
@@ -48,7 +48,7 @@ echo "WebApp URL:"
 echo $webappname
 
 sleep 5
-read -p "The website is getting ready and will be opened in the browser withing a few moments..." -t 30
+read -p "The website is getting ready and will be opened in the browser withing a few moments..." -t 40
 
 # Open Web App URL in browser
 az webapp browse --name webapp-challenge-app --resource-group webapp-challenge-app-rg
