@@ -18,7 +18,7 @@ read -p "Connecting to Azure DevOps account..." -t 6
 
 # Running the build on Azure DevOps from the source code on GitHub, deploying the release to production.
 az pipelines build queue --definition-name "webapp-challenge-app - CI" --project webapp-challenge-project -o table
-wait 3
+sleep 7
 read -p "Creating the build..." -t 40
 echo "Done!"
 
