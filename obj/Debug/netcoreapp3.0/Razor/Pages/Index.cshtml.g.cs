@@ -30,12 +30,12 @@ using WebApp;
 #nullable restore
 #line 4 "/Users/omega/WebApp/Pages/Index.cshtml"
   
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "WebApp Challenge";
 
 #line default
 #line hidden
 #nullable disable
-            WriteLiteral("\r\n<div class=\"text-center\">\r\n    <h1 class=\"display-4\">Hello Dan! How are you doing today?</h1>\r\n    <p>Build, Test and Deploy code <a href=\"https://docs.microsoft.com/aspnet/core\">Build</a>.</p>\r\n</div>\r\n");
+            WriteLiteral("\r\n<div class=\"text-center\">\r\n    <h1 class=\"display-4\">Hello Dan! How are you doing today? \r\n Thank you for the task! It was challenging :)</h1>\r\n
         }
         #pragma warning restore 1998
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
