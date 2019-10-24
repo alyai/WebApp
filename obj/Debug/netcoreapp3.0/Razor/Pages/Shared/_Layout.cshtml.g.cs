@@ -72,7 +72,7 @@ using WebApp;
 #line default
 #line hidden
 #nullable disable
-                WriteLiteral(" - WebApp</title>\r\n    ");
+                WriteLiteral(" WebApp Challenge</title>\r\n    ");
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5f697db11f899451f017bf72d6d34a4ceeca3e9b7718", async() => {
                 }
                 );

@@ -48,7 +48,7 @@ echo "WebApp URL:"
 echo $webappname
 
 sleep 5
-read -p "WebApp will be opened in browser now..." -t 3
+read -p "The website is getting ready and will be opened in the browser withing a few moments..." -t 30
 
 # Open Web App URL in browser
 az webapp browse --name webapp-challenge-app --resource-group webapp-challenge-app-rg
