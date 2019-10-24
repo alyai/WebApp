@@ -14,7 +14,7 @@ az devops login --organization https://dev.azure.com/iqwebapp/
 read -p "Connecting to Azure DevOps account..." -t 6
 
 # Running the build on Azure DevOps from the source code on GitHub, deploying the release to production.
-az pipelines build queue --definition-name "webapp-challenge-app - CI" --project webapp-challenge-project
+az pipelines build queue --definition-name "webapp-challenge-app - CI" --project webapp-challenge-project -o table
 sleep 7
 read -p "Creating the build..." -t 40
 echo "Done!"
@@ -34,6 +34,7 @@ sleep 6
 # Show the list of all releases with their statuses.
 az pipelines release list --definition-id 1 --project webapp-challenge-project -o table
 sleep 10
+read -p "Finalizing and preparing the web application...please wait a few moments..." -t 40
 echo "Done!"
 sleep 5
 
@@ -45,7 +46,7 @@ echo "WebApp URL:"
 echo $webappname
 
 sleep 5
-read -p "The website is getting ready and will be opened in the browser withing a few moments..." -t 40
+read -p "The website is getting ready and will be opened in the browser withing few moments..." -t 5
 
 # Open Web App URL in browser
 az webapp browse --name webapp-challenge-app --resource-group webapp-challenge-app-rg
